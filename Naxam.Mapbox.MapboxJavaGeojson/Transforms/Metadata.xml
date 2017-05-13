@@ -7,9 +7,6 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']" name="managedName">Mapbox.Services.Commons.Geojson</attr>
-  	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']" name="managedName">Mapbox.Services.Commons.Geojson.Custom</attr>
-	
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='GeometryDeserializer']/method[@name='deserialize']" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='PositionDeserializer']/method[@name='deserialize']" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='PositionSerializer']/method[@name='serialize']/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>

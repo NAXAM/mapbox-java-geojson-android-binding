@@ -1,12 +1,12 @@
 ﻿using System;
-using Position = global::Mapbox.Services.Commons.Models.Position;
-using PositionList = global::System.Collections.Generic.IList<global::Mapbox.Services.Commons.Models.Position>;
-using PositionListList = global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Mapbox.Services.Commons.Models.Position>>;
-using PositionListListList = global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Mapbox.Services.Commons.Models.Position>>>;
-using JPositionList = global::Android.Runtime.JavaList<global::Mapbox.Services.Commons.Models.Position>;
-using JPositionListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::Mapbox.Services.Commons.Models.Position>>;
-using JPositionListListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Mapbox.Services.Commons.Models.Position>>>;
-namespace Mapbox.Services.Commons.Geojson
+using Position = global::Com.Mapbox.Services.Commons.Models.Position;
+using PositionList = global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>;
+using PositionListList = global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>;
+using PositionListListList = global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>>;
+using JPositionList = global::Android.Runtime.JavaList<global::Com.Mapbox.Services.Commons.Models.Position>;
+using JPositionListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>;
+using JPositionListListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>>;
+namespace Com.Mapbox.Services.Commons.Geojson
 {
 	public partial class LineString
 	{

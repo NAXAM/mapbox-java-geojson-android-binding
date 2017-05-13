@@ -42,7 +42,7 @@
       <HintPath>..\packages\Naxam.Google.Gson.2.8.0\lib\MonoAndroid10\Naxam.Google.Gson.dll</HintPath>
     </Reference>
     <Reference Include="Naxam.Mapbox.MapboxJavaCore">
-      <HintPath>..\packages\Naxam.Mapbox.MapboxJavaCore.2.0.0.1\lib\MonoAndroid10\Naxam.Mapbox.MapboxJavaCore.dll</HintPath>
+      <HintPath>..\packages\Naxam.Mapbox.MapboxJavaCore.2.0.0.2\lib\MonoAndroid10\Naxam.Mapbox.MapboxJavaCore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Mapbox.MapboxJavaGeojson</id>
-        <version>2.0.0</version>
+        <version>2.0.0.1</version>
         <description>Xamarin Binding Library - Mapbox Java Geojson</description>
         <authors>Vu Duc Tuyen</authors>
         <owners>NAXAM CO.,LTD</owners>
@@ -17,7 +17,7 @@
         <tags>Xamarin.Android, mapbox, geojson</tags>
         <dependencies>
             <dependency id="Naxam.Google.Gson" version="2.8.0" />
-            <dependency id="Naxam.Mapbox.MapboxJavaCore" version="2.0.0.1" />
+            <dependency id="Naxam.Mapbox.MapboxJavaCore" version="2.0.0.2" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
