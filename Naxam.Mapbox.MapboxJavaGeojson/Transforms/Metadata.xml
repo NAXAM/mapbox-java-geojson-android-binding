@@ -10,16 +10,6 @@
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='GeometryDeserializer']/method[@name='deserialize']" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='PositionDeserializer']/method[@name='deserialize']" name="managedReturn">Java.Lang.Object</attr>
 	<attr path="/api/package[@name='com.mapbox.services.commons.geojson.custom']/class[@name='PositionSerializer']/method[@name='serialize']/parameter[@name='p0']" name="managedType">Java.Lang.Object</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='LineString']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='LineString']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiLineString']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiLineString']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiPoint']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiPoint']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiPolygon']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='MultiPolygon']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='Point']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='Point']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='Polygon']/method[@name='getCoordinates']" name="propertyName">Positions</attr>
-	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/class[@name='Polygon']/method[@name='setCoordinates']" name="propertyName">Positions</attr>
+	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/interface[@name='Geometry']/method[@name='getCoordinates']" name="propertyName">JCoordinates</attr>
+	<attr path="/api/package[@name='com.mapbox.services.commons.geojson']/interface[@name='Geometry']/method[@name='setCoordinates']" name="propertyName">JCoordinates</attr>
 </metadata>

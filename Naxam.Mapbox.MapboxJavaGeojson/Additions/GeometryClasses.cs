@@ -6,105 +6,113 @@ using PositionListListList = global::System.Collections.Generic.IList<global::Sy
 using JPositionList = global::Android.Runtime.JavaList<global::Com.Mapbox.Services.Commons.Models.Position>;
 using JPositionListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>;
 using JPositionListListList = global::Android.Runtime.JavaList<global::System.Collections.Generic.IList<global::System.Collections.Generic.IList<global::Com.Mapbox.Services.Commons.Models.Position>>>;
+using System.ComponentModel;
+
 namespace Com.Mapbox.Services.Commons.Geojson
 {
-	public partial class LineString
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				var native_value = JPositionList.ToLocalJniHandle(Positions);
+    public partial class LineString
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                var native_value = JPositionList.ToLocalJniHandle(Coordinates);
 
-				return Java.Lang.Object.GetObject<JPositionList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
-			}
-			set
-			{
-				Positions = (PositionList)value;
-			}
-		}
-	}
+                return Java.Lang.Object.GetObject<JPositionList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            set
+            {
+                Coordinates = (PositionList)value;
+            }
+        }
+    }
 
-	public partial class MultiLineString
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				var native_value = JPositionListList.ToLocalJniHandle(Positions);
+    public partial class MultiLineString
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                var native_value = JPositionListList.ToLocalJniHandle(Coordinates);
 
-				return Java.Lang.Object.GetObject<JPositionListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
-			}
-			set
-			{
-				Positions = (PositionListList)value;
-			}
-		}
-	}
+                return Java.Lang.Object.GetObject<JPositionListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            set
+            {
+                Coordinates = (PositionListList)value;
+            }
+        }
+    }
 
-	public partial class Point
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				return Positions;
-			}
-			set
-			{
-				Positions = (Position)value;
-			}
-		}
-	}
+    public partial class Point
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                return Coordinates;
+            }
+            set
+            {
+                Coordinates = (Position)value;
+            }
+        }
+    }
 
-	public partial class MultiPoint
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				var native_value = JPositionList.ToLocalJniHandle(Positions);
+    public partial class MultiPoint
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                var native_value = JPositionList.ToLocalJniHandle(Coordinates);
 
-				return Java.Lang.Object.GetObject<JPositionList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
-			}
-			set
-			{
-				Positions = (PositionList)value;
-			}
-		}
-	}
+                return Java.Lang.Object.GetObject<JPositionList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            set
+            {
+                Coordinates = (PositionList)value;
+            }
+        }
+    }
 
-	public partial class Polygon
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				var native_value = JPositionListList.ToLocalJniHandle(Positions);
+    public partial class Polygon
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                var native_value = JPositionListList.ToLocalJniHandle(Coordinates);
 
-				return Java.Lang.Object.GetObject<JPositionListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
-			}
-			set
-			{
-				Positions = (PositionListList)value;
-			}
-		}
-	}
+                return Java.Lang.Object.GetObject<JPositionListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            set
+            {
+                Coordinates = (PositionListList)value;
+            }
+        }
+    }
 
-	public partial class MultiPolygon
-	{
-		public Java.Lang.Object Coordinates
-		{
-			get
-			{
-				var native_value = JPositionListListList.ToLocalJniHandle(Positions);
+    public partial class MultiPolygon
+    {
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public Java.Lang.Object JCoordinates
+        {
+            get
+            {
+                var native_value = JPositionListListList.ToLocalJniHandle(Coordinates);
 
-				return Java.Lang.Object.GetObject<JPositionListListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
-			}
-			set
-			{
-				Positions = (PositionListListList)value;
-			}
-		}
-	}
+                return Java.Lang.Object.GetObject<JPositionListListList>(native_value, Android.Runtime.JniHandleOwnership.TransferLocalRef);
+            }
+            set
+            {
+                Coordinates = (PositionListListList)value;
+            }
+        }
+    }
 }
